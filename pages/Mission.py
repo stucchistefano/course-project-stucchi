@@ -94,4 +94,4 @@ custom_css = """
 st.markdown(custom_css, unsafe_allow_html=True)
 
 # Use the custom class in a container
-st.markdown('<div class="my-container">“ Transform <em><strong>performance measurement</strong></em> <br> and <em><strong>decision-making</strong></em> <br> in professional sport with <br> <em><strong>objective, AI-Driven, actionable insights</strong></em> ”</div>', unsafe_allow_html=True)
+st.markdown('<div class="my-container">“ Transform <br> <em><strong>performance measurement</strong></em> <br> and <em><strong>decision-making</strong></em> <br> in professional sport with <br> <em><strong>objective, AI-Driven, actionable</strong></em> <br> insights ”</div>', unsafe_allow_html=True)
