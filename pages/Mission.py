@@ -85,7 +85,7 @@ custom_css = """
  color: #FFFFFF;
  font-family: sans-serif;
  text-align: center;
- font-size: 1.3rem !important;
+ font-size: 1.5rem !important;
 }
 </style>
 """
@@ -94,4 +94,4 @@ custom_css = """
 st.markdown(custom_css, unsafe_allow_html=True)
 
 # Use the custom class in a container
-st.markdown('<div class="my-container">“ Transform PERFORMANCE MEASUREMENT and DECISION-MAKING in professional sport with OBJECTIVE, AI-DRIVEN, ACTIONABLE insights ”</div>', unsafe_allow_html=True)
+st.markdown('<div class="my-container">“ Transform _performance measurement_ and _decision-making_ in professional sport with _objective, AI-Driven, actionable_ insights ”</div>', unsafe_allow_html=True)
