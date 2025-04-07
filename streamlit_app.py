@@ -97,4 +97,4 @@ custom_css = """
 st.markdown(custom_css, unsafe_allow_html=True)
 
 # Use the custom class in a container
-st.markdown('<div class="my-container">The "must-have" app for coaches & athletes </div>', unsafe_allow_html=True)
+st.markdown('<div class="my-container">The "must-have" app for <br> coaches & athletes </div>', unsafe_allow_html=True)
