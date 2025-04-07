@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(
     page_title = "Mission",
     layout = "wide",
-    initial_sidebar_state = "expanded",
+    #initial_sidebar_state = "expanded",
     menu_items={"About": "Welcome to our application",
     }
 )
@@ -79,13 +79,13 @@ custom_css = """
 <style>
 .my-container {
  background-color: #A1289B;
- padding: 40px;
+ padding: 50px;
  border-radius: 5px;
 
  color: #FFFFFF;
  font-family: sans-serif;
  text-align: center;
- font-size: 1.5rem !important;
+ font-size: 2rem !important;
 }
 </style>
 """
