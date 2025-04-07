@@ -57,7 +57,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 
 # Title in possible rectangle
 with st.container():
-    st.title("KPills\n")
+    st.title("Our Mission\n")
 
 # Explanation in possible container
 with st.container():
@@ -79,7 +79,7 @@ custom_css = """
 <style>
 .my-container {
  background-color: #A1289B;
- padding: 20px;
+ padding: 50px;
  border-radius: 5px;
 
  color: #FFFFFF;
@@ -94,4 +94,4 @@ custom_css = """
 st.markdown(custom_css, unsafe_allow_html=True)
 
 # Use the custom class in a container
-st.markdown('<div class="my-container">The "must-have" app for coaches & athletes </div>', unsafe_allow_html=True)
+st.markdown('<div class="my-container">“ Transform PERFORMANCE MEASUREMENT and DECISION-MAKING in professional sport with OBJECTIVE, AI-DRIVEN, ACTIONABLE insights ”</div>', unsafe_allow_html=True)
