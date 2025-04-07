@@ -1,7 +1,7 @@
 import streamlit as st
 # Hamburger Menu
 st.set_page_config(
-    page_title = "Mission",
+    page_title = "App Description",
     layout = "wide",
     initial_sidebar_state = "collapsed",
     menu_items={"About": "Welcome to our application",
@@ -52,50 +52,3 @@ p, div, ul, ol, li {{
 
 # Report in Streamlit this colour of background
 st.markdown(custom_css, unsafe_allow_html=True)
-
-
-
-# Title in possible rectangle
-with st.container():
-    st.title("Our Mission\n")
-
-# Explanation in possible container
-with st.container():
-    st.markdown(
-        """
-        <style>
-        .stContainer > div {
-            width: 90%;
-            margin: auto;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
-
-# Define your custom CSS
-custom_css = """
-<style>
-.my-container {
- background-color: #A1289B;
- padding: 50px;
- border-radius: 5px;
-
- color: #FFFFFF;
- font-family: sans-serif;
- text-align: center;
- font-size: 1.8rem !important;
-}
-</style>
-"""
-
-# Apply the custom CSS
-st.markdown(custom_css, unsafe_allow_html=True)
-
-# Use the custom class in a container
-st.markdown('<div class="my-container">“ Transform <br> <em><strong>performance measurement</strong></em> <br> and <em><strong>decision-making</strong></em> <br> in professional sport with <br> <em><strong>objective, AI-Driven, actionable</strong></em> <br> insights ”</div>', unsafe_allow_html=True)
-
-
-# Buttons
-DescPageButton = st.button("Discover KPills", type="primary")

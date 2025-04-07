@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(
     page_title = "KPills",
     layout = "wide",
-    #initial_sidebar_state = "expanded",
+    initial_sidebar_state = "collapsed",
     menu_items={"About": "Welcome to our application",
     }
 )
@@ -68,7 +68,7 @@ with st.container():
         """
         <style>
         .stContainer > div {
-            width: 95%;
+            width: 90%;
             margin: auto;
         }
         </style>
@@ -98,3 +98,8 @@ st.markdown(custom_css, unsafe_allow_html=True)
 
 # Use the custom class in a container
 st.markdown('<div class="my-container">The "must-have" app for <br> coaches & athletes </div>', unsafe_allow_html=True)
+
+# Buttons
+left, middle, right = st.columns(3)
+if middle.button("Discover KPills", use_container_width=True):
+    middle.markdown("You clicked the emoji button.")
